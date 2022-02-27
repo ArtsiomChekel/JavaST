@@ -1,22 +1,23 @@
 package com.company.chekel.task1.service;
+
 import com.company.chekel.task1.entity.CustomArray;
+import com.company.chekel.task1.exception.CustomException;
 
 public class CustomArraySortService {
 
-    public void insertionSort(CustomArray array)
-    {
+    public void insertionSort(CustomArray array) throws CustomException {
+        if (array == null || array.length() == 0) {
+
+            throw new CustomException("Array is null or length is 0");
+        }
         int[] tmp = array.getCustomArray();
-        for (int i = 1; i < tmp.length; i++)
-        {
+        for (int i = 1; i < tmp.length; i++) {
             int helpValue = tmp[i];
-            int j = i-1;
-            for (; j >= 0; j--)
-            {
-                if (helpValue < tmp[j])
-                {
-                    tmp[j+1] = tmp[j];
-                }
-                else{
+            int j = i - 1;
+            for (; j >= 0; j--) {
+                if (helpValue < tmp[j]) {
+                    tmp[j + 1] = tmp[j];
+                } else {
                     break;
                 }
             }
@@ -24,11 +25,14 @@ public class CustomArraySortService {
         }
     }
 
-    public void exchangeSort(CustomArray array)
-    {
+    public void exchangeSort(CustomArray array) throws CustomException {
+        if (array == null || array.length() == 0) {
+
+            throw new CustomException("Array is null or length is 0");
+        }
         int[] tmp = array.getCustomArray();
         int helpValue = 0;
-        while(true) {
+        while (true) {
             int countOfChanges = 0;
             for (int i = 0; i < tmp.length - 1; i++) {
                 if (tmp[i] > tmp[i + 1]) {
@@ -38,17 +42,22 @@ public class CustomArraySortService {
                     countOfChanges++;
                 }
             }
-            if (countOfChanges == 0)
-            {break;}
+            if (countOfChanges == 0) {
+                break;
+            }
         }
     }
 
-    public void shellSort(CustomArray array) {
+    public void shellSort(CustomArray array) throws CustomException {
+        if (array == null || array.length() == 0) {
+
+            throw new CustomException("Array is null or length is 0");
+        }
         int[] tmp = array.getCustomArray();
         int helpValue = 0;
         int i = 0;
         while (true) {
-            if (tmp[0] > tmp[1]){
+            if (tmp[0] > tmp[1]) {
                 helpValue = tmp[0];
                 tmp[0] = tmp[1];
                 tmp[1] = helpValue;
@@ -57,13 +66,11 @@ public class CustomArraySortService {
                 helpValue = tmp[i];
                 tmp[i] = tmp[i + 1];
                 tmp[i + 1] = helpValue;
-                i --;
-            }
-            else{
+                i--;
+            } else {
                 i++;
             }
-            if (i > tmp.length - 2)
-            {
+            if (i > tmp.length - 2) {
                 break;
             }
         }
