@@ -1,0 +1,24 @@
+2022-03-02 18:31:30 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:31:30 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:31:30 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:31:30 [main] ERROR
+            epam.chekel.app.reader.CustomTxtReader - File in path: C:/Users/achek/IdeaProjects/MavenLog4jTest/src/main/resources/Data.txt is not found
+2022-03-02 18:32:33 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:32:33 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:32:33 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:32:33 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-02 18:33:26 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:33:26 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:33:26 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:33:26 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
