@@ -1,0 +1,108 @@
+2022-03-02 18:31:30 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:31:30 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:31:30 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:31:30 [main] ERROR
+            epam.chekel.app.reader.CustomTxtReader - File in path: C:/Users/achek/IdeaProjects/MavenLog4jTest/src/main/resources/Data.txt is not found
+2022-03-02 18:32:33 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:32:33 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:32:33 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:32:33 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-02 18:33:26 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:33:26 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:33:26 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:33:26 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-02 18:54:05 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:54:05 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:54:05 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:54:05 [main] ERROR
+            epam.chekel.app.reader.CustomTxtReader - File in path: C:/Users/achek/IdeaProjects/EPAM JavaST/Task1/main/resources/Data.txt is not found
+2022-03-02 18:54:15 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:54:15 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:54:15 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:54:15 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-02 18:56:19 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:56:19 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:56:19 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:56:19 [main] ERROR
+            epam.chekel.app.reader.CustomTxtReader - File in path: .src/main/resources/Data.txt is not found
+2022-03-02 18:58:35 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 18:58:35 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 18:58:35 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 18:58:35 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-02 19:42:13 [main] TRACE
+            by.epam.chekel.app.Main - Writing string
+2022-03-02 19:42:13 [main] TRACE
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray 
+2022-03-02 19:42:13 [main] TRACE
+            by.epam.chekel.app.Main - Array was created
+2022-03-02 19:42:13 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-02 19:42:13 [main] INFO 
+            epam.chekel.app.parser.CustomParserFromString - Creating new CustomParserFromString
+2022-03-04 12:44:55 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-04 12:44:55 [main] INFO 
+            epam.chekel.app.parser.CustomParserFromString - Creating new CustomParserFromString
+2022-03-04 13:04:08 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-04 13:04:08 [main] INFO 
+            epam.chekel.app.parser.CustomParserFromString - Creating new CustomParserFromString
+2022-03-04 13:04:08 [main] DEBUG
+            epam.chekel.app.entity.CustomArray - Creating new CustomArray
+2022-03-04 14:41:01 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-04 14:41:01 [main] INFO 
+            epam.chekel.app.parser.CustomParserFromString - Creating new CustomParserFromString
+2022-03-04 14:47:11 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-04 14:47:11 [main] INFO 
+            epam.chekel.app.parser.CustomParserFromString - Creating new CustomParserFromString
+2022-03-04 14:56:18 [main] INFO 
+            epam.chekel.app.validator.ArrayStringsValidator - Is line correct
+2022-03-04 14:56:18 [main] INFO 
+            epam.chekel.app.validator.ArrayStringsValidator - Is line correct
+2022-03-04 14:56:18 [main] INFO 
+            epam.chekel.app.validator.ArrayStringsValidator - Is line correct
+2022-03-04 14:56:18 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-04 14:56:18 [main] INFO 
+            epam.chekel.app.parser.CustomParserFromString - Creating new CustomParserFromString
+2022-03-05 23:07:57 [main] ERROR
+            epam.chekel.app.reader.CustomTxtReader - File in path: C:/Users/achek/IdeaProjects/EPAM JavaST/Task1/src/main/resources/Data.txt is not found
+2022-03-05 23:08:39 [main] ERROR
+            epam.chekel.app.reader.CustomTxtReader - File in path: main/resources/Data.txt is not found
+2022-03-05 23:08:50 [main] ERROR
+            epam.chekel.app.reader.CustomTxtReader - File in path: resources/Data.txt is not found
+2022-03-05 23:09:23 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-05 23:09:23 [main] INFO 
+            epam.chekel.app.parser.CustomParserFromString - Creating new CustomParserFromString
+2022-03-06 10:18:43 [main] INFO 
+            by.epam.chekel.app.Main - ReadString
+2022-03-06 10:18:43 [main] INFO 
+            epam.chekel.app.parser.CustomParserFromString - Creating new CustomParserFromString
